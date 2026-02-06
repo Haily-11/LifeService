@@ -28,6 +28,6 @@ public class MvcConfig implements WebMvcConfigurer {
                         "upload/**"
                 ).order(1);
         //刷新token拦截器
-        registry.addInterceptor(new RefreshTokenIntercepter(stringRedisTemplate)).excludePathPatterns("/**").order(0);
+        registry.addInterceptor(new RefreshTokenIntercepter(stringRedisTemplate)).addPathPatterns("/**").order(0);
     }
 }

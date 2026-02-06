@@ -23,7 +23,9 @@ public class LoginIntercepter implements HandlerInterceptor {
         if(UserHolder.getUser()==null) {
             // 没有，需要拦截，返回401
             response.setStatus(401);
-        }
             return false;
+        }
+        // 有用户，则放行
+           return true;
     }
 }
