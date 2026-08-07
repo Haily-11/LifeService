@@ -172,14 +172,6 @@ LifeService/
 
 ---
 
-## 📝 原项目信息
-
-本项目基于 **黑马点评** 重构：
-- 原课程视频：[Bilibili - Redis 实战篇](https://www.bilibili.com/video/BV1cr4y1671t)
-- 原作者：黑马程序员（虎哥）
-
----
-
 ## 📄 License
 
 本项目仅供学习交流使用。
